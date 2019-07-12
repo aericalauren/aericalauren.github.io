@@ -106,7 +106,7 @@ a {
 }
 
 a:hover {
-  color: #e981d3;
+  color: #e11c5f;
 }
 
 i {
@@ -132,6 +132,17 @@ main {
   width: 50%;
   float: left;
   padding: 2%;
+}
+
+/*pair with <figure> tag*/
+.imghover figure {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.imghover figure:hover img {
+  opacity: .5;
 }
 
 .textbox {
