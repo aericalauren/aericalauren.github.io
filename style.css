@@ -1,0 +1,256 @@
+/* CSS RESET:
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*** END RESET CSS ***/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width:100%;
+  background-color: #ffffff;
+}
+
+header {
+	position:absolute;
+  width: 95%;
+  right: 0px;
+	top: 0px;
+  text-align: left;
+	display: block;
+	padding: 20px 20px 20px 0px;
+}
+
+hr {
+	position: absolute;
+	width:95%;
+	border: 1px solid black;
+	top: 50px;
+	right:0px;
+}
+
+.fixed {
+	position: fixed;
+}
+
+
+#welcome {
+	width: 40%;
+	height: 500px;
+	text-align: center;
+	line-height: 50px;
+	margin:auto;
+	margin-top:200px;
+}
+
+#welcome h3 {
+	padding-top: 100px;
+}
+
+img {
+	width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e981d3;
+}
+
+i {
+	color: #000;
+}
+
+nav {
+	position:absolute;
+  width: 25%;
+  top: 75px;
+  left: 56px;
+  float: left;
+}
+
+main {
+  margin-top: 7%;
+  width: 75%;
+  float: right;
+	margin-bottom: 150px;
+}
+
+.photo {
+  width: 50%;
+  float: left;
+  padding: 2%;
+}
+
+.textbox {
+  width: 50%;
+  float: right;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right:15%;
+  margin-bottom: 150px;
+}
+
+.textbox i {
+	font-size:100pt;
+}
+
+#contact {
+  width: 50%;
+  float: left;
+  padding: 2%;
+  margin-bottom: 150px;
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+  overflow: auto;
+}
+
+#validation {
+  float: left;
+  text-align: left;
+}
+
+#copyright {
+  float: right;
+  text-align: right;
+}
+
+footer {
+  width: 95%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  float: right;
+  padding: 10px;
+  /*footer gradient color*/
+  background: rgba(233, 129, 211, 0.5); /* Solid color for browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* Standard syntax */
+}
+
+
+/*** TYPOGRAPHY ***/
+
+h1, h2, h3, h4, a, ul, li, p {
+  font-family: "Assistant", "Arial", sans-serif;
+  color: #000000;
+}
+
+p {
+	font-size: 10pt;
+	line-height:12pt;
+}
+
+p + p {
+  margin-top: 12pt;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+font-size: 24pt;
+}
+
+h3 {
+font-size: 14pt;
+margin-bottom: 30px;
+margin-top: -12pt;
+}
+
+h4{
+  font-size: 10pt;
+  display:inline;
+}
+
+li {
+  padding: 3.5%;
+}
+
+/***RESPONSIVE MEDIA FOR SMALLER BROWSERS***/
+/*@media screen and(max-width:330px){
+  main{
+		max-width: 100%;
+	}
+
+	header, nav{
+		position: relative;
+		float:left;
+		clear:both;
+	}
+	.photo {
+		max-width: 100%;
+		float: left;
+		clear: right;
+	}
+
+	.textbox {
+		max-width:100%;
+		padding: 3%;
+		float:left;
+		clear:right;
+	}
+}
+*/
+
+/***COLOR***/
+/*#e981d3 LILAC*/
+
