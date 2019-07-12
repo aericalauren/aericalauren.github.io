@@ -158,7 +158,7 @@ main {
 	font-size:100pt;
 }
 
-#contact {
+#textbox2 {
   width: 50%;
   float: left;
   padding: 2%;
@@ -189,11 +189,11 @@ footer {
   float: right;
   padding: 10px;
   /*footer gradient color*/
-  background: rgba(233, 129, 211, 0.5); /* Solid color for browsers that do not support gradients */
-  background: -webkit-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(right, rgba(233, 129, 211, 0.5), rgba(255, 255, 255, 0.5)); /* Standard syntax */
+  background: rgba(225, 28, 95, 0.5); /* Solid color for browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, rgba(225, 28, 95, 0.5), rgba(255, 255, 255, 0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(225, 28, 95,, 0.5), rgba(255, 255, 255, 0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(225, 28, 95, 0.5), rgba(255, 255, 255, 0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, rgba(225, 28, 95, 0.5), rgba(255, 255, 255, 0.5)); /* Standard syntax */
 }
 
 
